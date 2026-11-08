@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interface/srv/AddThreeInts.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_interface {
+  module srv {
+    struct AddThreeInts_Request {
+      int64 num1;
+
+      int64 num2;
+
+      int64 num3;
+    };
+    struct AddThreeInts_Response {
+      int64 sum;
+    };
+  };
+};

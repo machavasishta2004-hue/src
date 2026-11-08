@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000334] (tutorial_interface) JobQueued: {'identifier': 'tutorial_interface', 'dependencies': OrderedDict()}
+[0.000611] (tutorial_interface) JobStarted: {'identifier': 'tutorial_interface'}
+[0.022511] (tutorial_interface) JobProgress: {'identifier': 'tutorial_interface', 'progress': 'cmake'}
+[0.022855] (tutorial_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/ros2_ws/src/tutorial_interface', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/src/tutorial_interface/install/tutorial_interface'], 'cwd': '/home/vboxuser/ros2_ws/src/tutorial_interface/build/tutorial_interface', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2263-0-vasi_TIME70539', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '6', 'LD_LIBRARY_PATH': '/home/vboxuser/ros2_ws/install/custom_action_interfaces/lib:/home/vboxuser/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/ros2_ws/src/tutorial_interface/srv', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2026', 'SYSTEMD_EXEC_PID': '2263', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3144', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/ros2_ws/install:/home/vboxuser/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '10:14954', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vasi:@/tmp/.ICE-unix/2227,unix/vasi:/tmp/.ICE-unix/2227', 'INVOCATION_ID': '9a460796740b4957b01bbd89c69ebbef', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HQI4X3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/custom_action_interfaces:/home/vboxuser/ros2_ws/install/py_actions:/home/vboxuser/ros2_ws/install/rclpy_examples:/home/vboxuser/ros2_ws/install/python_parameters:/home/vboxuser/ros2_ws/install/py_pubsub:/home/vboxuser/ros2_ws/install/actions_py:/home/vboxuser/ros2_ws/install/my_robot_interfaces:/home/vboxuser/ros2_ws/install/my_robot_controller:/home/vboxuser/ros2_ws/install/dummy_test:/home/vboxuser/ros2_ws/src/install/py_pubsub:/home/vboxuser/ros2_ws/src/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6da1ad28-1c63-4ef6-8383-0b7b2305ac63', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros2_ws/src/tutorial_interface/build/tutorial_interface', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/home/vboxuser/ros2_ws/build/py_actions:/home/vboxuser/ros2_ws/install/py_actions/lib/python3.12/site-packages:/home/vboxuser/ros2_ws/build/rclpy_examples:/home/vboxuser/ros2_ws/install/rclpy_examples/lib/python3.12/site-packages:/home/vboxuser/ros2_ws/build/python_parameters:/home/vboxuser/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/vboxuser/ros2_ws/build/actions_py:/home/vboxuser/ros2_ws/install/actions_py/lib/python3.12/site-packages:/home/vboxuser/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/vboxuser/ros2_ws/build/my_robot_controller:/home/vboxuser/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.12/site-packages:/home/vboxuser/ros2_ws/src/build/my_robot_controller:/home/vboxuser/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/custom_action_interfaces:/home/vboxuser/ros2_ws/install/my_robot_interfaces:/home/vboxuser/ros2_ws/install/dummy_test:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.041550] (tutorial_interface) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099020] (-) TimerEvent: {}
+[0.199759] (-) TimerEvent: {}
+[0.302086] (-) TimerEvent: {}
+[0.328889] (tutorial_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.356194] (tutorial_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.365233] (tutorial_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.375592] (tutorial_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.388290] (tutorial_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.406148] (-) TimerEvent: {}
+[0.478174] (tutorial_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.488457] (tutorial_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.507191] (-) TimerEvent: {}
+[0.615547] (-) TimerEvent: {}
+[0.721622] (-) TimerEvent: {}
+[0.822305] (-) TimerEvent: {}
+[0.923111] (-) TimerEvent: {}
+[0.944998] (tutorial_interface) StderrLine: {'line': b"Error parsing '/home/vboxuser/ros2_ws/src/tutorial_interface/package.xml':\n"}
+[1.024123] (-) TimerEvent: {}
+[1.127582] (-) TimerEvent: {}
+[1.234197] (-) TimerEvent: {}
+[1.335168] (-) TimerEvent: {}
+[1.481636] (-) TimerEvent: {}
+[1.586292] (-) TimerEvent: {}
+[1.693430] (-) TimerEvent: {}
+[1.800391] (-) TimerEvent: {}
+[1.911319] (-) TimerEvent: {}
+[2.015192] (-) TimerEvent: {}
+[2.145754] (-) TimerEvent: {}
+[2.272858] (-) TimerEvent: {}
+[2.480645] (-) TimerEvent: {}
+[2.619222] (-) TimerEvent: {}
+[2.732561] (-) TimerEvent: {}
+[2.874504] (-) TimerEvent: {}
+[2.998189] (-) TimerEvent: {}
+[3.099171] (-) TimerEvent: {}
+[3.201973] (-) TimerEvent: {}
+[3.310657] (-) TimerEvent: {}
+[3.423558] (-) TimerEvent: {}
+[3.530117] (-) TimerEvent: {}
+[3.661678] (-) TimerEvent: {}
+[3.778183] (-) TimerEvent: {}
+[3.880654] (-) TimerEvent: {}
+[3.981409] (-) TimerEvent: {}
+[4.126405] (-) TimerEvent: {}
+[4.208488] (tutorial_interface) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.209178] (tutorial_interface) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[4.209852] (tutorial_interface) StderrLine: {'line': b'    main()\n'}
+[4.210119] (tutorial_interface) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[4.210309] (tutorial_interface) StderrLine: {'line': b'    raise e\n'}
+[4.210409] (tutorial_interface) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[4.210837] (tutorial_interface) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[4.210970] (tutorial_interface) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[4.211074] (tutorial_interface) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[4.211164] (tutorial_interface) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[4.211250] (tutorial_interface) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/vboxuser/ros2_ws/src/tutorial_interface/package.xml':\n"}
+[4.211328] (tutorial_interface) StderrLine: {'line': b'Error(s):\n'}
+[4.211410] (tutorial_interface) StderrLine: {'line': b'- The manifest of package "tutorial_interface" (with format version 3) must not contain the following tags: member_of_goup\n'}
+[4.229752] (-) TimerEvent: {}
+[4.256872] (tutorial_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.257251] (tutorial_interface) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[4.257441] (tutorial_interface) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[4.257555] (tutorial_interface) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[4.257740] (tutorial_interface) StderrLine: {'line': b'  /home/vboxuser/ros2_ws/src/tutorial_interface/package.xml\n'}
+[4.257844] (tutorial_interface) StderrLine: {'line': b'  /home/vboxuser/ros2_ws/src/tutorial_interface/build/tutorial_interface/ament_cmake_core/package.cmake)\n'}
+[4.258176] (tutorial_interface) StderrLine: {'line': b'  returned error code 1\n'}
+[4.258518] (tutorial_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.258621] (tutorial_interface) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[4.258712] (tutorial_interface) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)\n'}
+[4.258802] (tutorial_interface) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[4.258933] (tutorial_interface) StderrLine: {'line': b'\n'}
+[4.259040] (tutorial_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[4.265054] (tutorial_interface) CommandEnded: {'returncode': 1}
+[4.265636] (tutorial_interface) JobEnded: {'identifier': 'tutorial_interface', 'rc': 1}
+[4.277009] (-) EventReactorShutdown: {}

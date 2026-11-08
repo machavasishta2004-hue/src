@@ -1,0 +1,11 @@
+[31mCMake Error at CMakeLists.txt:9 (find_package):
+  find_package called with invalid argument "ament_cmake"
+
+[0m
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:192 (message):
+  rosidl_generate_interfaces() the passed dependency 'geometry_msgs' has not
+  been found before using find_package()
+Call Stack (most recent call first):
+  CMakeLists.txt:15 (rosidl_generate_interfaces)
+
+[0m

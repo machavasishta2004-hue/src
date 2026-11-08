@@ -1,0 +1,36 @@
+[0.024s] Invoking command in '/home/vboxuser/ros2_ws/src/tutorial_interface/build/tutorial_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/ros2_ws/src/tutorial_interface -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/src/tutorial_interface/install/tutorial_interface
+[0.041s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.343s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.348s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.361s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.410s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.419s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.842s] Error parsing '/home/vboxuser/ros2_ws/src/tutorial_interface/package.xml':
+[3.286s] Traceback (most recent call last):
+[3.287s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[3.287s]     main()
+[3.287s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[3.287s]     raise e
+[3.287s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[3.287s]     package = parse_package_string(
+[3.287s]               ^^^^^^^^^^^^^^^^^^^^^
+[3.287s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[3.287s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[3.287s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/vboxuser/ros2_ws/src/tutorial_interface/package.xml':
+[3.287s] Error(s):
+[3.287s] - The manifest of package "tutorial_interface" (with format version 3) must not contain the following tags: member_of_goup
+[3.328s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.328s]   execute_process(/usr/bin/python3
+[3.328s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.328s]   /home/vboxuser/ros2_ws/src/tutorial_interface/package.xml
+[3.328s]   /home/vboxuser/ros2_ws/src/tutorial_interface/build/tutorial_interface/ament_cmake_core/package.cmake)
+[3.328s]   returned error code 1
+[3.328s] Call Stack (most recent call first):
+[3.328s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.329s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[3.329s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[3.329s] 
+[3.329s] [0m
+[3.329s] -- Configuring incomplete, errors occurred!
+[3.340s] Invoked command in '/home/vboxuser/ros2_ws/src/tutorial_interface/build/tutorial_interface' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/ros2_ws/src/tutorial_interface -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/src/tutorial_interface/install/tutorial_interface
